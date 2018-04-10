@@ -1,0 +1,43 @@
+Arguments: 
+  /Users/tony/.nvm/versions/node/v8.4.0/bin/node /usr/local/Cellar/yarn/1.5.1/libexec/bin/yarn.js install
+
+PATH: 
+  /Users/tony/.rvm/gems/ruby-2.2.1/bin:/Users/tony/.rvm/gems/ruby-2.2.1@global/bin:/Users/tony/.rvm/rubies/ruby-2.2.1/bin:/usr/local/heroku/bin:/Users/tony/.nvm/versions/node/v8.4.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tony/.cargo/bin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/tony/.local/bin:/Users/tony/.cabal/bin:/Applications/ghc-7.10.2.app/Contents/bin:/usr/local/bin:/usr/local/sbin:/Users/tony/.rbenv/shims:/Users/tony/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/tony/.rvm/bin:/Applications/Postgres.app/Contents/Versions/9.3/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.4.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "electron-autoupdater-test",
+    "version": "1.0.0",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "license": "MIT",
+    "devDependencies": {
+      "electron": "^1.8.4",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: /Users/tony/projects/JavaScript/electron-autoupdater-test/package.json: Unexpected token } in JSON at position 201
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:1036:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:98:30)
+      at /usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:109:13
+      at <anonymous>
